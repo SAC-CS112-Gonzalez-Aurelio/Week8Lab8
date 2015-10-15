@@ -10,8 +10,15 @@ public class Lab1 {
 			System.out.println("What is your birth year?");
 			int Birthyear = Input.nextInt();
 		age = date-Birthyear;
-		System.out.printf("Hello, %s, you're age is %d", name, age);
+		System.out.printf("Hello, %s, you're age is %d.", name, age);
+		
+if (age>21)
+System.out.println("Congratulations, You can lawfully drink!");
 
+else {
+	System.out.println(" Sorry, You cannot lawfully drink!");
+
+}
 	}
 
 }
