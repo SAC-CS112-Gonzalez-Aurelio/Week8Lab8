@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class LAb2 {
+public class Lab3 {
 
 		public static void main(String[] args) {
 			int date = 2015;
@@ -14,7 +14,7 @@ public class LAb2 {
 		System.out.printf("Hello, %s, you're %d years old today!", name, age);
 		
 if (age>21)
-System.out.println("Congratulations, You can lawfully drink!");
+System.out.println(" Congratulations, You can lawfully drink!");
 
 else {
 	System.out.println(" Sorry, You cannot lawfully drink!");
