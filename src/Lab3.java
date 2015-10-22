@@ -5,7 +5,11 @@ public class Lab3 {
 			int date = 2015;
 			int age= 0;
 			int DrinkYear;
+			
+			char choiceChar = 'Y';
+			do{
 			Scanner Input = new Scanner(System.in);
+			
 			System.out.println("What is your name?");
 			String name = Input.nextLine();
 			System.out.println("What is your birth year?");
@@ -22,7 +26,13 @@ else {
 	if (age<21)
 		System.out.printf("You will be able to drink in the year %s.",DrinkYear);
 		
+	System.out.print("\nDo again? 'Y' for yes 'N' for no: ");
+	choice = Input.next();
 }
+choiceChar = choice.charAt(0);
+choiceChar = Character.toUpperCase(choiceChar);
+System.out.print("\n\n");
 	}
-
+while(choiceChar== 'Y');
+}
 }
